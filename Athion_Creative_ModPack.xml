@@ -21,7 +21,7 @@
 		</Module>
 		<Module name="Minecraft Forge" id="forge-1.8-11.14.1.1334" depends="" side="CLIENT">
 			<Size>100000</Size>
-			<Required>true</Required>
+			<Required>false</Required>
 			<ModType order="1">Override</ModType>
 		</Module>
 		<Module name="DaFlight" id="DaFlight" depends="liteloader" side="CLIENT">
