@@ -24,7 +24,7 @@
 			<Size>145558</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
-			<ModPath>mods/1.8/mod_DaFlight</ModPath>
+			<ModPath>mod_DaFlight</ModPath>
 			<MD5>dbbfce2d9e33a80f603adedc04b6da29</MD5>
 			<NoOverwrite/>
 			<Meta>
@@ -40,7 +40,7 @@
 			<Size>369853</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<ModPath>mods/1.8/Shaders.jar</ModPath>
+			<ModPath>Shaders.jar</ModPath>
 			<MD5>94bc4402e57519355a54eb2b8a727799</MD5>
 			<NoOverwrite/>
 			<Meta>
@@ -55,7 +55,7 @@
 			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Optifine.jar</URL>
 			<Size>897157</Size>
 			<Required>true</Required>
-			<ModPath>mods/1.8/Optifine.jar</ModPath>
+			<ModPath>Optifine.jar</ModPath>
 			<ModType>Regular</ModType>
 			<MD5>c4d74f72cffb8e107182e343e7928ecd</MD5>
 			<NoOverwrite/>
@@ -65,7 +65,7 @@
 			<Size>24238</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<ModPath>mods/1.8/PixelCam.jar</ModPath>
+			<ModPath>PixelCam.jar</ModPath>
 			<MD5>d7abc70b4a66e3b4a0772ee345007d82</MD5>
 			<Meta>
 				<credits></credits>
@@ -80,7 +80,7 @@
 			<Size>90991</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
-			<ModPath>mods/1.8/mod_WorldEditCUI</ModPath>
+			<ModPath>mod_WorldEditCUI</ModPath>
 			<MD5>80466fd24723f51085b4f3bb054edcb8</MD5>
 			<Meta>
 				<description>Client-side user interface for WorldEdit</description>
@@ -95,7 +95,7 @@
 			<Size>181311</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<ModPath>mods/1.8/Xaeros_Minimap.jar</ModPath>
+			<ModPath>Xaeros_Minimap.jar</ModPath>
 			<MD5>1132f11f1d10e73f8edf33b70b51d6ee</MD5>
 			<NoOverwrite/>
 			<Meta>
