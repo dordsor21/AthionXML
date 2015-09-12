@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="Athion" name="Athion Server" newsUrl="https://github.com/dordsor21/Mods/blob/master/README.md" mainClass="net.minecraft.launchwrapper.Launch" serverAddress="play.athion.net:25565" iconUrl="http://i.imgur.com/EwgCPyR.png" revision="1" autoConnect="true">
+	<Server id="Athion" name="Athion Server" version=="1.8.8" newsUrl="https://github.com/dordsor21/Mods/blob/master/README.md" mainClass="net.minecraft.launchwrapper.Launch" serverAddress="play.athion.net:25565" iconUrl="http://i.imgur.com/EwgCPyR.png" revision="1" autoConnect="true">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8.0&amp;forge=11.14.1.1334">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.8.0/liteloader-1.8.0.jar</URL>
