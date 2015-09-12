@@ -36,7 +36,7 @@
 			</Meta>
 		</Module>
 		<Module name="GLSL Shaders Mod" id="shadersmod" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Shaders.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Shaders.jar?raw=true</URL>
 			<Size>369853</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -61,7 +61,7 @@
 			<NoOverwrite/>
 		</Module>
 		<Module name="PixelCam" id="PixelCam" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/PixelCam.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/PixelCam.jar?raw=true</URL>
 			<Size>24238</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -76,7 +76,7 @@
 			</Meta>
 		</Module>
 		<Module name="wecui" id="wecui" depends="liteloader" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/mod_WorldEditCUI.litemod</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/mod_WorldEditCUI.litemod?raw=true</URL>
 			<Size>90991</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
@@ -91,7 +91,7 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Xaeros_Minimap.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Xaeros_Minimap.jar?raw=true</URL>
 			<Size>181311</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
