@@ -5,16 +5,16 @@
 	<Server
 	  id="athion-server" 
 	  name="Athion Network Creative Server" 
-	  version="1.8.0"
+	  version="1.8"
 	  serverAddress="play.athion.net" 
 	  newsUrl="https://github.com/dordsor21/Mods/blob/master/README.md" 
 	  mainClass="net.minecraft.launchwrapper.Launch" 
 	  iconUrl="http://i.imgur.com/EwgCPyR.png" 
 	  revision="0.5" 
 	  autoConnect="true"> 
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8.0&amp;forge=11.14.1.1334">forge</Import>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8&amp;forge=11.14.1.1334">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
-			<URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.8.0/liteloader-1.8.0.jar</URL>
+			<URL>http://jenkins.liteloader.com/job/LiteLoader/lastSuccessfulBuild/artifact/build/dist/liteloader-1.8-SNAPSHOT.jar</URL>
 			<Required isDefault="true">false</Required>
 			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
 			<MD5></MD5>
