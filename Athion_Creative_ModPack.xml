@@ -15,7 +15,7 @@
 		<Import url="https://github.com/dordsor21/Mods/blob/master/Forge.jar?raw=true">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>http://jenkins.liteloader.com/job/LiteLoaderInstaller/lastBuild/artifact/ant/dist/liteloader-installer-1.8.0-00-SNAPSHOT.jar</URL>
-			<Required isDefault="true">false</Required>
+			<Required isDefault="true">true</Required>
 			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
 			<MD5></MD5>
 		</Module>
