@@ -12,7 +12,7 @@
 	  iconUrl="http://i.imgur.com/EwgCPyR.png" 
 	  revision="0.5" 
 	  autoConnect="true"> 
-		<Import url="https://github.com/dordsor21/Mods/blob/master/Forge.jar?raw=true">forge</Import>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8.0&amp;forge=11.14.1.1334">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.8.0/liteloader-1.8.0.jar</URL>
 			<Required isDefault="true">false</Required>
