@@ -24,7 +24,7 @@
 			<Size>145558</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
-			<ModPath>mods/1.8/mod_DaFlight</ModPath>
+			<ModPath>mods/1.8/mod_DaFlight.litemod</ModPath>
 			<MD5>dbbfce2d9e33a80f603adedc04b6da29</MD5>
 			<NoOverwrite/>
 			<Meta>
@@ -80,7 +80,7 @@
 			<Size>90991</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
-			<ModPath>mods/1.8/mod_WorldEditCUI</ModPath>
+			<ModPath>mods/1.8/mod_WorldEditCUI.litemod</ModPath>
 			<MD5>80466fd24723f51085b4f3bb054edcb8</MD5>
 			<Meta>
 				<description>Client-side user interface for WorldEdit</description>
