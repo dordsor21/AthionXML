@@ -46,13 +46,6 @@
 				<revision>52</revision>
 			</Meta>
 		</Module>
-		<Module name="Forge" id="Forge" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/Forge.jar</URL>
-			<Size>3401358</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>739fd99c2a5d0bfe4a27f87789a42761</MD5>
-		</Module>
 		<Module name="GLSL Shaders Mod" id="shadersmod" depends="" side="BOTH">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Shaders.jar</URL>
 			<Size>369853</Size>
@@ -67,24 +60,10 @@
 				<authors>karyonix, sonic ether, id_miner, daxnitro</authors>
 			</Meta>
 		</Module>
-		<Module name="LiteLoader" id="LiteLoader" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/LiteLoader.jar</URL>
-			<Size>3367788</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>746c75f5accf0510e5ad1e932cbbd934</MD5>
-		</Module>
 		<Module name="Minecraft Forge" id="forge-11.14.1.1334" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
-		</Module>
-		<Module name="ModPack" id="ModPack" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/ModPack.zip</URL>
-			<Size>15928313</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>884db3716e8b6f233f0ea40b9233d748</MD5>
 		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Optifine.jar</URL>
@@ -106,62 +85,6 @@
 				<url>http://crushedpixel.eu</url>
 				<authors>CrushedPixel</authors>
 			</Meta>
-		</Module>
-		<Module name="post-update" id="post-update" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/post-update.sample</URL>
-			<Size>189</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>2b7ea5cee3c49ff53d41e00785eb974c</MD5>
-		</Module>
-		<Module name="pre-applypatch" id="pre-applypatch" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/pre-applypatch.sample</URL>
-			<Size>398</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>a4a7e457b55b5ac2877f7973dbba37e9</MD5>
-		</Module>
-		<Module name="pre-commit" id="pre-commit" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/pre-commit.sample</URL>
-			<Size>1642</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>01b1688f97f94776baae85d77b06048b</MD5>
-		</Module>
-		<Module name="pre-push" id="pre-push" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/pre-push.sample</URL>
-			<Size>1352</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>9b64ca5761c6de555d7d1b3c948ecfeb</MD5>
-		</Module>
-		<Module name="pre-rebase" id="pre-rebase" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/pre-rebase.sample</URL>
-			<Size>4951</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>81005745454846bb79cc3c7c0c57658d</MD5>
-		</Module>
-		<Module name="prepare-commit-msg" id="prepare-commit-msg" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/prepare-commit-msg.sample</URL>
-			<Size>1239</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>7dfe15854212a30f346da5255c1d794b</MD5>
-		</Module>
-		<Module name="README" id="README" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/README.md</URL>
-			<Size>2890</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>2024703801c08a8f06191a9736bf8e12</MD5>
-		</Module>
-		<Module name="update" id="update" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/update.sample</URL>
-			<Size>3611</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>f51b02427757e79621b5235d7efdf117</MD5>
 		</Module>
 		<Module name="wecui" id="wecui" depends="liteloader" side="BOTH">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/mod_WorldEditCUI.litemod</URL>
