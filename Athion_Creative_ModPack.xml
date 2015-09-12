@@ -5,6 +5,7 @@
 	<Server
 	  id="athion-server" 
 	  name="Athion Network Creative Server" 
+	  serverAddress="play.athion.net" 
 	  newsUrl="https://github.com/dordsor21/Mods/blob/master/README.md" 
 	  mainClass="net.minecraft.launchwrapper.Launch" 
 	  iconUrl="http://i.imgur.com/EwgCPyR.png" 
