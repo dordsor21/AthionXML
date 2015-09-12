@@ -19,13 +19,14 @@
 			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
 			<MD5></MD5>
 		</Module>
-		<Module name="DaFlight" id="DaFlight" depends="liteloader" side="BOTH">
+		<Module name="DaFlight" id="DaFlight" depends="liteloader" side="CLIENT">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/mod_DaFlight.litemod</URL>
 			<Size>145558</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
 			<ModPath>mods/mod_DaFlight.lightmod</ModPath>
 			<MD5>dbbfce2d9e33a80f603adedc04b6da29</MD5>
+			<NoOverwrite/>
 			<Meta>
 				<description>A fly mod!</description>
 				<version></version>
@@ -34,13 +35,14 @@
 				<revision>52</revision>
 			</Meta>
 		</Module>
-		<Module name="GLSL Shaders Mod" id="shadersmod" depends="" side="BOTH">
+		<Module name="GLSL Shaders Mod" id="shadersmod" depends="" side="CLIENT">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Shaders.jar</URL>
 			<Size>369853</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<ModPath>mods/Shaders.jar</ModPath>
 			<MD5>94bc4402e57519355a54eb2b8a727799</MD5>
+			<NoOverwrite/>
 			<Meta>
 				<credits>Based on daxnitro&apos;s GLSL Shaders Mod. Updated by karyonix, id_miner, sonic ether.</credits>
 				<description>Use custom GLSL shaders to render world.</description>
@@ -49,20 +51,16 @@
 				<authors>karyonix, sonic ether, id_miner, daxnitro</authors>
 			</Meta>
 		</Module>
-		<Module name="Minecraft Forge" id="forge-11.14.1.1334" depends="" side="BOTH">
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType order="1">Override</ModType>
-		</Module>
-		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
+		<Module name="Optifine" id="Optifine" depends="" side="CLIENT">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Optifine.jar</URL>
 			<Size>897157</Size>
 			<Required>true</Required>
 			<ModPath>mods/Optifine.jar</ModPath>
 			<ModType>Regular</ModType>
 			<MD5>c4d74f72cffb8e107182e343e7928ecd</MD5>
+			<NoOverwrite/>
 		</Module>
-		<Module name="PixelCam" id="PixelCam" depends="" side="BOTH">
+		<Module name="PixelCam" id="PixelCam" depends="" side="CLIENT">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/PixelCam.jar</URL>
 			<Size>24238</Size>
 			<Required>true</Required>
@@ -77,7 +75,7 @@
 				<authors>CrushedPixel</authors>
 			</Meta>
 		</Module>
-		<Module name="wecui" id="wecui" depends="liteloader" side="BOTH">
+		<Module name="wecui" id="wecui" depends="liteloader" side="CLIENT">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/mod_WorldEditCUI.litemod</URL>
 			<Size>90991</Size>
 			<Required>true</Required>
@@ -92,13 +90,14 @@
 				<revision>1803</revision>
 			</Meta>
 		</Module>
-		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
+		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="CLIENT">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Xaeros_Minimap.jar</URL>
 			<Size>181311</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<ModPath>mods/Xaeros_Minimap.jar</ModPath>
 			<MD5>1132f11f1d10e73f8edf33b70b51d6ee</MD5>
+			<NoOverwrite/>
 			<Meta>
 				<credits>Made by xaero96</credits>
 				<description>The most &quot;vanilla-looking&quot; minimap for minecraft. Now with WAYPOINTS!</description>
