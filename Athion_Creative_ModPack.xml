@@ -12,7 +12,7 @@
 	  iconUrl="http://i.imgur.com/EwgCPyR.png" 
 	  revision="0.5" 
 	  autoConnect="true"> 
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8.0&amp;forge=11.14.1.1334">forge</Import>
+		<Import url="https://github.com/dordsor21/Mods/blob/master/Forge.jar?raw=true">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.8.0/liteloader-1.8.0.jar</URL>
 			<Required isDefault="true">false</Required>
@@ -20,7 +20,7 @@
 			<MD5></MD5>
 		</Module>
 		<Module name="DaFlight" id="DaFlight" depends="liteloader" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/mod_DaFlight.litemod</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/mod_DaFlight.litemod?raw=true</URL>
 			<Size>145558</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
@@ -36,7 +36,7 @@
 			</Meta>
 		</Module>
 		<Module name="GLSL Shaders Mod" id="shadersmod" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Shaders.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Shaders.jar?raw=true</URL>
 			<Size>369853</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -52,7 +52,7 @@
 			</Meta>
 		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Optifine.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Optifine.jar?raw=true</URL>
 			<Size>897157</Size>
 			<Required>true</Required>
 			<ModPath>mods/Optifine.jar</ModPath>
@@ -61,7 +61,7 @@
 			<NoOverwrite/>
 		</Module>
 		<Module name="PixelCam" id="PixelCam" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/PixelCam.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/PixelCam.jar?raw=true</URL>
 			<Size>24238</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -76,7 +76,7 @@
 			</Meta>
 		</Module>
 		<Module name="wecui" id="wecui" depends="liteloader" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/mod_WorldEditCUI.litemod</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/mod_WorldEditCUI.litemod?raw=true</URL>
 			<Size>90991</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
@@ -91,7 +91,7 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Xaeros_Minimap.jar</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Xaeros_Minimap.jar?raw=true</URL>
 			<Size>181311</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
