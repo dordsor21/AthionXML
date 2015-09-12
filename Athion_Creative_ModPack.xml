@@ -20,7 +20,7 @@
 			<MD5></MD5>
 		</Module>
 		<Module name="DaFlight" id="DaFlight" depends="liteloader" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/mod_DaFlight.litemod</URL>
+			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/mod_DaFlight.litemod?raw=true</URL>
 			<Size>145558</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
