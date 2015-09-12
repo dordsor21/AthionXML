@@ -52,7 +52,7 @@
 			</Meta>
 		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="CLIENT">
-			<URL priority="0">https://gitlab.com/dordsor21/Mods/blob/2492c337a88ce1f6e979dc02a5694578444bcd98/mods/1.8/Optifine.jar</URL>
+			<URL priority="0">http://dordsor21.github.io/Optifine</URL>
 			<Size>897157</Size>
 			<Required>true</Required>
 			<ModPath>mods/1.8/Optifine.jar</ModPath>
