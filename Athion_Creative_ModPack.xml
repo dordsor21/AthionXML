@@ -5,11 +5,12 @@
 	<Server
 	  id="athion-server" 
 	  name="Athion Network Creative Server" 
+	  version="1.8.0"
 	  serverAddress="play.athion.net" 
 	  newsUrl="https://github.com/dordsor21/Mods/blob/master/README.md" 
 	  mainClass="net.minecraft.launchwrapper.Launch" 
 	  iconUrl="http://i.imgur.com/EwgCPyR.png" 
-	  revision="1" 
+	  revision="0.5" 
 	  autoConnect="true"> 
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8.0&amp;forge=11.14.1.1334">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
@@ -17,20 +18,6 @@
 			<Required isDefault="true">false</Required>
 			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
 			<MD5></MD5>
-		</Module>
-		<Module name="applypatch-msg" id="applypatch-msg" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/applypatch-msg.sample</URL>
-			<Size>452</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>9cc72dc973e24f9623bd3fe708f60ef5</MD5>
-		</Module>
-		<Module name="commit-msg" id="commit-msg" depends="" side="BOTH">
-			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/commit-msg.sample</URL>
-			<Size>896</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>579a3c1e12a1e74a98169175fb913012</MD5>
 		</Module>
 		<Module name="DaFlight" id="DaFlight" depends="liteloader" side="BOTH">
 			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/mod_DaFlight.litemod</URL>
