@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="Athion" name="Athion" newsUrl="athion.net" mainClass="net.minecraft.launchwrapper.Launch" serverAddress="play.athion.net" iconUrl="http://i.imgur.com/EwgCPyR.png" revision="1" autoConnect="true">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8.0&amp;forge=11.14.1.1334">forge</Import>
+		<Module name="LiteLoader" id="liteloader">
+			<URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.8.0/liteloader-1.8.0.jar</URL>
+			<Required isDefault="true">false</Required>
+			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
+			<MD5></MD5>
+		</Module>
+		<Module name="applypatch-msg" id="applypatch-msg" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/applypatch-msg.sample</URL>
+			<Size>452</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9cc72dc973e24f9623bd3fe708f60ef5</MD5>
+		</Module>
+		<Module name="commit-msg" id="commit-msg" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/commit-msg.sample</URL>
+			<Size>896</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>579a3c1e12a1e74a98169175fb913012</MD5>
+		</Module>
+		<Module name="DaFlight" id="DaFlight" depends="liteloader" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/mod_DaFlight.litemod</URL>
+			<Size>145558</Size>
+			<Required>true</Required>
+			<ModType>Litemod</ModType>
+			<MD5>dbbfce2d9e33a80f603adedc04b6da29</MD5>
+			<Meta>
+				<description>A fly mod!</description>
+				<version></version>
+				<url></url>
+				<authors>dags</authors>
+				<revision>52</revision>
+			</Meta>
+		</Module>
+		<Module name="Forge" id="Forge" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/Forge.jar</URL>
+			<Size>3401358</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>739fd99c2a5d0bfe4a27f87789a42761</MD5>
+		</Module>
+		<Module name="GLSL Shaders Mod" id="shadersmod" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Shaders.jar</URL>
+			<Size>369853</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>94bc4402e57519355a54eb2b8a727799</MD5>
+			<Meta>
+				<credits>Based on daxnitro&apos;s GLSL Shaders Mod. Updated by karyonix, id_miner, sonic ether.</credits>
+				<description>Use custom GLSL shaders to render world.</description>
+				<version>2.4.11</version>
+				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix</url>
+				<authors>karyonix, sonic ether, id_miner, daxnitro</authors>
+			</Meta>
+		</Module>
+		<Module name="LiteLoader" id="LiteLoader" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/LiteLoader.jar</URL>
+			<Size>3367788</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>746c75f5accf0510e5ad1e932cbbd934</MD5>
+		</Module>
+		<Module name="Minecraft Forge" id="forge-11.14.1.1334" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType order="1">Override</ModType>
+		</Module>
+		<Module name="ModPack" id="ModPack" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/ModPack.zip</URL>
+			<Size>15928313</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>884db3716e8b6f233f0ea40b9233d748</MD5>
+		</Module>
+		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Optifine.jar</URL>
+			<Size>897157</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c4d74f72cffb8e107182e343e7928ecd</MD5>
+		</Module>
+		<Module name="PixelCam" id="PixelCam" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/PixelCam-1.2.jar</URL>
+			<Size>24238</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d7abc70b4a66e3b4a0772ee345007d82</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Replacement of the Camera Studio Mod for Minecraft 1.8</description>
+				<version>1.2</version>
+				<url>http://crushedpixel.eu</url>
+				<authors>CrushedPixel</authors>
+			</Meta>
+		</Module>
+		<Module name="post-update" id="post-update" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/post-update.sample</URL>
+			<Size>189</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2b7ea5cee3c49ff53d41e00785eb974c</MD5>
+		</Module>
+		<Module name="pre-applypatch" id="pre-applypatch" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/pre-applypatch.sample</URL>
+			<Size>398</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a4a7e457b55b5ac2877f7973dbba37e9</MD5>
+		</Module>
+		<Module name="pre-commit" id="pre-commit" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/pre-commit.sample</URL>
+			<Size>1642</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>01b1688f97f94776baae85d77b06048b</MD5>
+		</Module>
+		<Module name="pre-push" id="pre-push" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/pre-push.sample</URL>
+			<Size>1352</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9b64ca5761c6de555d7d1b3c948ecfeb</MD5>
+		</Module>
+		<Module name="pre-rebase" id="pre-rebase" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/pre-rebase.sample</URL>
+			<Size>4951</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>81005745454846bb79cc3c7c0c57658d</MD5>
+		</Module>
+		<Module name="prepare-commit-msg" id="prepare-commit-msg" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/prepare-commit-msg.sample</URL>
+			<Size>1239</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7dfe15854212a30f346da5255c1d794b</MD5>
+		</Module>
+		<Module name="README" id="README" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/README.md</URL>
+			<Size>2890</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2024703801c08a8f06191a9736bf8e12</MD5>
+		</Module>
+		<Module name="update" id="update" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/.git/hooks/update.sample</URL>
+			<Size>3611</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f51b02427757e79621b5235d7efdf117</MD5>
+		</Module>
+		<Module name="wecui" id="wecui" depends="liteloader" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/mod_WorldEditCUI.litemod</URL>
+			<Size>90991</Size>
+			<Required>true</Required>
+			<ModType>Litemod</ModType>
+			<MD5>80466fd24723f51085b4f3bb054edcb8</MD5>
+			<Meta>
+				<description>Client-side user interface for WorldEdit</description>
+				<version>1.8.0_03</version>
+				<url></url>
+				<authors>yetanotherx, Mumfrey, TomyLobo</authors>
+				<revision>1803</revision>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
+			<URL priority="0">https://github.com/dordsor21/Mods/Mod%20Pack/mods/1.8/Xaeros_Minimap.jar</URL>
+			<Size>181311</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1132f11f1d10e73f8edf33b70b51d6ee</MD5>
+			<Meta>
+				<credits>Made by xaero96</credits>
+				<description>The most &quot;vanilla-looking&quot; minimap for minecraft. Now with WAYPOINTS!</description>
+				<version>1.6.3</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>
