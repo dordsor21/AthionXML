@@ -15,13 +15,13 @@
 		<Import url="https://github.com/dordsor21/Mods/blob/master/Forge.jar?raw=true">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>http://jenkins.liteloader.com/job/LiteLoaderInstaller/lastBuild/artifact/ant/dist/liteloader-installer-1.8.0-00-SNAPSHOT.jar</URL>
-			<Required isDefault="true">true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
 			<MD5></MD5>
 		</Module>
 		<Module name="Minecraft Forge" id="forge-1.8-11.14.1.1334" depends="" side="CLIENT">
 			<Size>100000</Size>
-			<Required>false</Required>
+			<Required>true</Required>
 			<ModType order="1">Override</ModType>
 		</Module>
 		<Module name="DaFlight" id="DaFlight" depends="liteloader" side="CLIENT">
