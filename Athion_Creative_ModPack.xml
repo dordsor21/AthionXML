@@ -7,7 +7,7 @@
 	  name="Athion Network Creative Server" 
 	  version="1.8"
 	  serverAddress="play.athion.net" 
-	  newsUrl="https://github.com/dordsor21/Mods/blob/master/README.md" 
+	  newsUrl="https://github.com/AthionOfficial/Mods/blob/master/README.md" 
 	  mainClass="net.minecraft.launchwrapper.Launch" 
 	  iconUrl="http://i.imgur.com/EwgCPyR.png" 
 	  revision="0.5" 
