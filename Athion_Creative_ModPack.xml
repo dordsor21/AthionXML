@@ -7,11 +7,11 @@
 	  name="Athion Network Creative Server" 
 	  version="1.8"
 	  serverAddress="play.athion.net" 
-	  newsUrl="https://github.com/AthionOfficial/Mods/blob/master/README.md" 
+	  newsUrl="http://www.athion.net/community/articles/" 
 	  mainClass="net.minecraft.launchwrapper.Launch" 
 	  iconUrl="http://i.imgur.com/EwgCPyR.png" 
 	  revision="0.5" 
-	  autoConnect="true"> 
+	  autoConnect="false"> 
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8&amp;forge=11.14.1.1334">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>http://jenkins.liteloader.com/job/LiteLoader/lastSuccessfulBuild/artifact/build/dist/liteloader-1.8-SNAPSHOT.jar</URL>
