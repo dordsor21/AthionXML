@@ -3,15 +3,15 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server
-	  id="athion-server" 
-	  name="Athion Network Creative Server" 
+	  id="athion-server"
+	  name="Athion Network Creative Server"
 	  version="1.8"
-	  serverAddress="play.athion.net" 
-	  newsUrl="http://www.athion.net/community/articles/" 
-	  mainClass="net.minecraft.launchwrapper.Launch" 
-	  iconUrl="http://i.imgur.com/EwgCPyR.png" 
-	  revision="0.5" 
-	  autoConnect="false"> 
+	  serverAddress="play.athion.net"
+	  newsUrl="http://www.athion.net/community/articles/"
+	  mainClass="net.minecraft.launchwrapper.Launch"
+	  iconUrl="http://i.imgur.com/EwgCPyR.png"
+	  revision="0.5"
+	  autoConnect="false">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8&amp;forge=11.14.1.1334">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>http://jenkins.liteloader.com/job/LiteLoader/lastSuccessfulBuild/artifact/build/dist/liteloader-1.8-SNAPSHOT.jar</URL>
@@ -101,7 +101,7 @@
 			<Meta>
 				<credits>Made by xaero96</credits>
 				<description>The most &quot;vanilla-looking&quot; minimap for minecraft. Now with WAYPOINTS!</description>
-				<version>1.6.3</version>
+				<version>1.6.9.1</version>
 				<url></url>
 				<authors>Xaero96</authors>
 			</Meta>
