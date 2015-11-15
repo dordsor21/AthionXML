@@ -107,7 +107,7 @@
 			</Meta>
 		</Module>
     <Module name="ResPack" id="ResPack" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/raw/master/ResPack.txt?raw=true</URL>
+			<URL priority="0"></URL>
 			<Size>10</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
