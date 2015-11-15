@@ -106,5 +106,16 @@
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
+    <Module name="ResPack" id="ResPack" depends="" side="CLIENT">
+			<URL priority="0">https://github.com/dordsor21/Mods/raw/master/ResPack.txt?raw=true</URL>
+			<Size>10</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/ResPack.txt</ModPath>
+			<MD5>1132f11f1d10e73f8edf33b70b51d6ee</MD5>
+			<NoOverwrite/>
+			<Meta>
+			</Meta>
+		</Module>
 	</Server>
 </ServerPack>
