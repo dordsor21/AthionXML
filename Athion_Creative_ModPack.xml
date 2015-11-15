@@ -26,7 +26,6 @@
 			<ModType>Litemod</ModType>
 			<ModPath>mods/1.8/mod_DaFlight.litemod</ModPath>
 			<MD5>dbbfce2d9e33a80f603adedc04b6da29</MD5>
-			<NoOverwrite/>
 			<Meta>
 				<description>A fly mod!</description>
 				<version></version>
@@ -42,7 +41,6 @@
 			<ModType>Regular</ModType>
 			<ModPath>mods/1.8/Shaders.jar</ModPath>
 			<MD5>94bc4402e57519355a54eb2b8a727799</MD5>
-			<NoOverwrite/>
 			<Meta>
 				<credits>Based on daxnitro&apos;s GLSL Shaders Mod. Updated by karyonix, id_miner, sonic ether.</credits>
 				<description>Use custom GLSL shaders to render world.</description>
@@ -58,7 +56,6 @@
 			<ModPath>mods/1.8/Optifine.jar</ModPath>
 			<ModType>Regular</ModType>
 			<MD5>c4d74f72cffb8e107182e343e7928ecd</MD5>
-			<NoOverwrite/>
 		</Module>
 		<Module name="PixelCam" id="PixelCam" depends="" side="CLIENT">
 			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/PixelCam.jar?raw=true</URL>
@@ -97,7 +94,6 @@
 			<ModType>Regular</ModType>
 			<ModPath>mods/1.8/Xaeros_Minimap.jar</ModPath>
 			<MD5>1132f11f1d10e73f8edf33b70b51d6ee</MD5>
-			<NoOverwrite/>
 			<Meta>
 				<credits>Made by xaero96</credits>
 				<description>The most &quot;vanilla-looking&quot; minimap for minecraft. Now with WAYPOINTS!</description>
