@@ -72,19 +72,6 @@
 				<authors>CrushedPixel</authors>
 			</Meta>
 		</Module>
-				<Module name="replaymod" id="replaymod" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/replaymod.jar?raw=true</URL>
-			<Size>24238</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<ModPath>mods/1.8/replaymod.jar</ModPath>
-			<Meta>
-				<credits></credits>
-				<description>Used for recording minecraft Timelapses</description>
-				<version>1.0.7</version>
-				<authors>CrushedPixel and johni0702</authors>
-			</Meta>
-		</Module>
 		<Module name="wecui" id="wecui" depends="liteloader" side="CLIENT">
 			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/mod_WorldEditCUI.litemod?raw=true</URL>
 			<Size>90991</Size>
