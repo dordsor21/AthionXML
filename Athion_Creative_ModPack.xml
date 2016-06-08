@@ -5,52 +5,22 @@
 	<Server
 	  id="athion-server"
 	  name="Athion Network Creative Server"
-	  version="1.8"
+	  version="1.9.4"
 	  serverAddress="play.athion.net"
 	  newsUrl="http://www.athion.net/community/articles/"
 	  mainClass="net.minecraft.launchwrapper.Launch"
 	  iconUrl="http://i.imgur.com/EwgCPyR.png"
-	  revision="0.5"
+	  revision="1"
 	  autoConnect="false">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.8&amp;forge=11.14.1.1334">forge</Import>
+		<Import url="https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Forge.jar">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
-			<URL>http://jenkins.liteloader.com/job/LiteLoader/lastSuccessfulBuild/artifact/build/dist/liteloader-1.8-SNAPSHOT.jar</URL>
+			<URL>https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/LiteLoader.jar</URL>
 			<Required isDefault="true">false</Required>
 			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
 			<MD5></MD5>
 		</Module>
-		<Module name="DaFlight" id="DaFlight" depends="liteloader" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/mod_DaFlight.litemod?raw=true</URL>
-			<Size>145558</Size>
-			<Required>true</Required>
-			<ModType>Litemod</ModType>
-			<ModPath>mods/1.8/mod_DaFlight.litemod</ModPath>
-			<MD5>dbbfce2d9e33a80f603adedc04b6da29</MD5>
-			<Meta>
-				<description>A fly mod!</description>
-				<version></version>
-				<url></url>
-				<authors>dags</authors>
-				<revision>52</revision>
-			</Meta>
-		</Module>
-		<Module name="GLSL Shaders Mod" id="shadersmod" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Shaders.jar?raw=true</URL>
-			<Size>369853</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<ModPath>mods/1.8/Shaders.jar</ModPath>
-			<MD5>94bc4402e57519355a54eb2b8a727799</MD5>
-			<Meta>
-				<credits>Based on daxnitro&apos;s GLSL Shaders Mod. Updated by karyonix, id_miner, sonic ether.</credits>
-				<description>Use custom GLSL shaders to render world.</description>
-				<version>2.4.11</version>
-				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286604-shaders-mod-updated-by-karyonix</url>
-				<authors>karyonix, sonic ether, id_miner, daxnitro</authors>
-			</Meta>
-		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Optifine.jar?raw=true</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/OptiFine.jar?raw=true</URL>
 			<Size>897157</Size>
 			<Required>true</Required>
 			<ModPath>mods/1.8/Optifine.jar</ModPath>
@@ -58,7 +28,7 @@
 			<MD5>c4d74f72cffb8e107182e343e7928ecd</MD5>
 		</Module>
 		<Module name="PixelCam" id="PixelCam" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/PixelCam.jar?raw=true</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/PixelCam.jar?raw=true</URL>
 			<Size>24238</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -73,7 +43,7 @@
 			</Meta>
 		</Module>
 		<Module name="wecui" id="wecui" depends="liteloader" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/mod_WorldEditCUI.litemod?raw=true</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/mod_worldeditcui.litemod?raw=true</URL>
 			<Size>90991</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
@@ -88,7 +58,7 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/dordsor21/Mods/blob/master/mods/1.8/Xaeros_Minimap.jar?raw=true</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/Xaeros_Minimap.jar?raw=true</URL>
 			<Size>181311</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
