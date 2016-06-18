@@ -14,7 +14,7 @@
 	  autoConnect="false">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.9.4&amp;forge=12.17.0.1937">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
-			<URL>https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/LiteLoader.jar</URL>
+			<URL>http://jenkins.liteloader.com/job/LiteLoaderInstaller%201.9.4/lastSuccessfulBuild/artifact/build/libs/liteloader-installer-1.9.4-00-SNAPSHOT.jar</URL>
 			<Required isDefault="true">false</Required>
 			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
 			<MD5></MD5>
