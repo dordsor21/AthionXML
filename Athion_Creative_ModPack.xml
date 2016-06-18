@@ -12,7 +12,7 @@
 	  iconUrl="http://i.imgur.com/EwgCPyR.png"
 	  revision="1"
 	  autoConnect="false">
-		<Import url="https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Forge.jar">forge</Import>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.9.4&amp;forge=12.17.0.1937">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/LiteLoader.jar</URL>
 			<Required isDefault="true">false</Required>
