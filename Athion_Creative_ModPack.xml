@@ -34,13 +34,6 @@
 			<ModType>Regular</ModType>
 			<ModPath>mods/1.9.4/PixelCam.jar</ModPath>
 			<MD5>d7abc70b4a66e3b4a0772ee345007d82</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Replacement of the Camera Studio Mod for Minecraft 1.8</description>
-				<version>1.2</version>
-				<url>http://crushedpixel.eu</url>
-				<authors>CrushedPixel</authors>
-			</Meta>
 		</Module>
 		<Module name="wecui" id="wecui" depends="liteloader" side="CLIENT">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/mod_worldeditcui.litemod?raw=true</URL>
@@ -49,13 +42,6 @@
 			<ModType>Litemod</ModType>
 			<ModPath>mods/1.9.4/mod_WorldEditCUI.litemod</ModPath>
 			<MD5>80466fd24723f51085b4f3bb054edcb8</MD5>
-			<Meta>
-				<description>Client-side user interface for WorldEdit</description>
-				<version>1.8.0_03</version>
-				<url></url>
-				<authors>yetanotherx, Mumfrey, TomyLobo</authors>
-				<revision>1803</revision>
-			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="CLIENT">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/Xaeros_Minimap.jar?raw=true</URL>
@@ -64,13 +50,6 @@
 			<ModType>Regular</ModType>
 			<ModPath>mods/1.9.4/Xaeros_Minimap.jar</ModPath>
 			<MD5>1132f11f1d10e73f8edf33b70b51d6ee</MD5>
-			<Meta>
-				<credits>Made by xaero96</credits>
-				<description>The most &quot;vanilla-looking&quot; minimap for minecraft. Now with WAYPOINTS!</description>
-				<version>1.7</version>
-				<url></url>
-				<authors>Xaero96</authors>
-			</Meta>
 		</Module>
 	</Server>
 </ServerPack>
