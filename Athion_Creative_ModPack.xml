@@ -13,12 +13,6 @@
 	  revision="1"
 	  autoConnect="false">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.9.4&amp;forge=12.17.0.1937">forge</Import>
-		<Module name="LiteLoader" id="liteloader">
-			<URL>http://jenkins.liteloader.com/job/LiteLoader%201.9.4/lastSuccessfulBuild/artifact/build/libs/liteloader-1.9.4-SNAPSHOT.jar</URL>
-			<Required isDefault="true">false</Required>
-			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
-			<MD5></MD5>
-		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="CLIENT">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/OptiFine.jar?raw=true</URL>
 			<Size>897157</Size>
@@ -34,22 +28,6 @@
 			<ModType>Regular</ModType>
 			<ModPath>mods/1.9.4/PixelCam.jar</ModPath>
 			<MD5>d7abc70b4a66e3b4a0772ee345007d82</MD5>
-		</Module>
-		<Module name="wecui" id="wecui" depends="liteloader" side="CLIENT">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/mod_worldeditcui.litemod?raw=true</URL>
-			<Size>90991</Size>
-			<Required>true</Required>
-			<ModType>Litemod</ModType>
-			<ModPath>mods/1.9.4/mod_WorldEditCUI.litemod</ModPath>
-			<MD5>80466fd24723f51085b4f3bb054edcb8</MD5>
-		</Module>
-		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/Xaeros_Minimap.jar?raw=true</URL>
-			<Size>181311</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<ModPath>mods/1.9.4/Xaeros_Minimap.jar</ModPath>
-			<MD5>1132f11f1d10e73f8edf33b70b51d6ee</MD5>
 		</Module>
 	</Server>
 </ServerPack>
