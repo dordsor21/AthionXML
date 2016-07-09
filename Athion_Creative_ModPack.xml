@@ -8,7 +8,7 @@
 	  version="1.10"
 	  serverAddress="play.athion.net"
 	  newsUrl="http://www.athion.net/community/articles/"
-	  mainClass="net.minecraft.client.main.Main"
+	  mainClass="net.minecraft.launchwrapper.Launch"
 	  iconUrl="http://i.imgur.com/EwgCPyR.png"
 	  revision="1"
 	  autoConnect="false">
