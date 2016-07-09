@@ -12,7 +12,7 @@
 	  iconUrl="http://i.imgur.com/EwgCPyR.png"
 	  revision="1"
 	  autoConnect="false">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.10.0&amp;forge=12.18.0.2000">forge</Import>
+		<Import url="http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.10-12.18.0.2000-1.10.0/forge-1.10-12.18.0.2000-1.10.0-universal.jar">forge</Import>
 		<Module name="Optifine" id="Optifine" depends="" side="CLIENT">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.10/Mods/OptiFine.jar?raw=true</URL>
 			<Size>897157</Size>
