@@ -5,7 +5,7 @@
 	<Server
 	  id="athion-server"
 	  name="Athion Network Creative Server"
-	  version="1.9.4"
+	  version="1.10.0"
 	  serverAddress="play.athion.net"
 	  newsUrl="http://www.athion.net/community/articles/"
 	  mainClass="net.minecraft.launchwrapper.Launch"
