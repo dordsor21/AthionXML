@@ -5,28 +5,28 @@
 	<Server
 	  id="athion-server"
 	  name="Athion Network Creative Server"
-	  version="1.10"
+	  version="1.9.4"
 	  serverAddress="play.athion.net"
 	  newsUrl="http://www.athion.net/community/articles/"
 	  mainClass="net.minecraft.launchwrapper.Launch"
 	  iconUrl="http://i.imgur.com/EwgCPyR.png"
 	  revision="1"
 	  autoConnect="false">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.10&amp;forge=12.18.0.2000-1.10.0">forge</Import>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.9.4&amp;forge=12.17.0.1937">forge</Import>
 		<Module name="Optifine" id="Optifine" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.10/Mods/OptiFine.jar?raw=true</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/OptiFine.jar?raw=true</URL>
 			<Size>897157</Size>
 			<Required>true</Required>
-			<ModPath>mods/1.10/Optifine.jar</ModPath>
+			<ModPath>mods/1.9.4/Optifine.jar</ModPath>
 			<ModType>Regular</ModType>
 			<MD5>c4d74f72cffb8e107182e343e7928ecd</MD5>
 		</Module>
 		<Module name="PixelCam" id="PixelCam" depends="" side="CLIENT">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.10/Mods/PixelCam.jar?raw=true</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.9/Mods/PixelCam.jar?raw=true</URL>
 			<Size>24238</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<ModPath>mods/1.10/PixelCam.jar</ModPath>
+			<ModPath>mods/1.9.4/PixelCam.jar</ModPath>
 			<MD5>d7abc70b4a66e3b4a0772ee345007d82</MD5>
 		</Module>
 	</Server>
