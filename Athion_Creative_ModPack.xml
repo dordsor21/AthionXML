@@ -23,21 +23,21 @@
 			<ModType order="1">Override</ModType>
 		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
-			<URL priority="0">athion.net/Mods/Optifine.jar</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.10.2/Mods/Optifine.jar</URL>
 			<Size>1722682</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>a9b1b2fcd26a884af0552d3eb7873d1d</MD5>
 		</Module>
 		<Module name="PixelCam" id="pixelcam" depends="" side="BOTH">
-			<URL priority="0">athion.net/Mods/Pixelcam.jar</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.10.2/Mods/Pixelcam.jar</URL>
 			<Size>671665</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>ee5b10f842306b2b0320fe649a0b5679</MD5>
 		</Module>
 		<Module name="WorldEditCUI" id="WorldEditCUI" depends="liteloader" side="BOTH">
-			<URL priority="0">athion.net/Mods/WorldEditCUI.litemod</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.10.2/Mods/WorldEditCUI.litemod</URL>
 			<Size>93406</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
