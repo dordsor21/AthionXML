@@ -10,7 +10,7 @@
 	iconUrl="http://i.imgur.com/EwgCPyR.png"
 	serverAddress="play.athion.net"
 	autoConnect="false">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.10.2&forge=12.18.1.2011">forge</Import>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.10.2;forge=12.18.1.2011">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.10.2/liteloader-1.10.2.jar</URL>
 			<Required isDefault="true">false</Required>
