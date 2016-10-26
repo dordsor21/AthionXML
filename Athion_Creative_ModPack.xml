@@ -43,5 +43,12 @@
 			<ModType>Litemod</ModType>
 			<MD5>b1c24ad3318f6dce6b6f659b714e7731</MD5>
 		</Module>
+		<Module name="XRay" id="XRay" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.10.2/Mods/XRay.jar</URL>
+			<Size>303196</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7de58a4261ac2c3774301cff2e8be7da</MD5>
+		</Module>
 	</Server>
 </ServerPack>
