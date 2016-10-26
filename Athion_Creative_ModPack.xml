@@ -13,7 +13,7 @@
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.10.2&amp;forge=12.18.1.2011">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.10.2/liteloader-1.10.2.jar</URL>
-			<Required isDefault="true">true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
 			<MD5></MD5>
 		</Module>
