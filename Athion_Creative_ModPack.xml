@@ -12,7 +12,7 @@
 	autoConnect="false">
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.10.2&amp;forge=12.18.1.2011">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
-			<URL>http://jenkins.liteloader.com/job/LiteLoaderInstaller%201.10.2/lastSuccessfulBuild/artifact/build/libs/liteloader-installer-1.10.2-00-SNAPSHOT.jar</URL>
+			<URL>http://jenkins.liteloader.com/job/LiteLoader%201.10.2/lastSuccessfulBuild/artifact/build/libs/liteloader-1.10.2-SNAPSHOT.jar</URL>
 			<Required isDefault="true">false</Required>
 			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
 			<MD5></MD5>
