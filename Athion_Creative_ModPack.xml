@@ -57,5 +57,12 @@
 			<ModType>Regular</ModType>
 			<MD5>a8825980e6f0a01027d5043be9dbd528</MD5>
 		</Module>
+		<Module name="DiscordCE" id="dce" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.10.2/Mods/DiscordCE.jar</URL>
+			<Size>4173936</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8e084af22a117dc37e09b52e35a37396</MD5>
+		</Module>
 	</Server>
 </ServerPack>
