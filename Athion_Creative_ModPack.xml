@@ -10,7 +10,7 @@
 	iconUrl="http://i.imgur.com/EwgCPyR.png"
 	serverAddress="play.athion.net"
 	autoConnect="false">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.11.x&amp;forge=13.19.0.2130">forge</Import>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.11&amp;forge=13.19.0.2130">forge</Import>
 		<Module name="LiteLoader" id="liteloader">
 			<URL>https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/liteloader/liteloader.jar</URL>
 			<Required isDefault="true">false</Required>
