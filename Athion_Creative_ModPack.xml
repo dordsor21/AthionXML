@@ -4,7 +4,7 @@
 	id="athion-server"
 	name="Athion Network Creative Server"
 	newsUrl="http://www.athion.net/community/articles/"
-	version="1.11"
+	version="1.11.0"
 	mainClass="net.minecraft.launchwrapper.Launch"
 	revision="1"
 	iconUrl="http://i.imgur.com/EwgCPyR.png"
