@@ -16,12 +16,12 @@
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
 		</Module>
-		<Module name="LiteLoader" id="liteloader">
-			<URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.11/liteloader-1.11.jar</URL>
-			<Required isDefault="true">false</Required>
-			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
-			<MD5></MD5>
-		</Module>
+        <Module name="LiteLoader" id="liteloader">
+            <URL>https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/liteloader/liteloader.jar</URL>
+            <Required isDefault="true">false</Required>
+            <ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
+            <MD5></MD5>
+        </Module>
 		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/Optifine.jar</URL>
 			<Size>1730042</Size>
