@@ -24,10 +24,10 @@
         </Module>
 		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/Optifine.jar</URL>
-			<Size>1730042</Size>
+			<Size>1735820</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>20d1d7948b05f01492e7adc781597093</MD5>
+			<MD5>0475b22b41e1a6ee7cac18468925363b</MD5>
 		</Module>
 		<Module name="PixelCam" id="pixelcam" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/Pixelcam.jar</URL>
@@ -45,10 +45,10 @@
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/Xaeros_Minimap.jar</URL>
-			<Size>287874</Size>
+			<Size>292173</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>321e2beb63457718c2a2ebcc65dd2739</MD5>
+			<MD5>365f4d3bb018e3061029b9d091e93a38</MD5>
 		</Module>
 		<Module name="XRay" id="XRay" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/XRay.jar</URL>
