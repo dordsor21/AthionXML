@@ -4,58 +4,52 @@
 	id="athion-server"
 	name="Athion Network Creative Server"
 	newsUrl="http://www.athion.net/community/articles/"
-	version="1.11"
+	version="1.11.2"
 	mainClass="net.minecraft.launchwrapper.Launch"
-	revision="1"
+	revision="1.1"
 	iconUrl="http://i.imgur.com/EwgCPyR.png"
 	serverAddress="play.athion.net"
 	autoConnect="false">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.11&amp;forge=13.19.0.2157">forge</Import>
-		<Module name="Minecraft Forge" id="forge-13.19.0.2157" depends="" side="BOTH">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.11.2&amp;forge=13.20.0.2201">forge</Import>
+		<Module name="Minecraft Forge" id="forge-13.20.0.2201" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
 		</Module>
-        <Module name="LiteLoader" id="liteloader">
-            <URL>https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/liteloader/liteloader.jar</URL>
-            <Required isDefault="true">false</Required>
-            <ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
-            <MD5></MD5>
-        </Module>
 		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/Optifine.jar</URL>
-			<Size>1735820</Size>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Optifine.jar</URL>
+			<Size>1771858</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0475b22b41e1a6ee7cac18468925363b</MD5>
+			<MD5>e444db3541d6450224b752613a1ce778</MD5>
 		</Module>
 		<Module name="PixelCam" id="pixelcam" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/Pixelcam.jar</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Pixelcam.jar</URL>
 			<Size>671665</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>ee5b10f842306b2b0320fe649a0b5679</MD5>
 		</Module>
-		<Module name="WorldEditCUI" id="WorldEditCUI" depends="liteloader" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/WorldEditCUI.litemod</URL>
-			<Size>93432</Size>
+		<Module name="WorldEdit CUI Forge Edition" id="worldeditcuife" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/WorldEditCUI.jar</URL>
+			<Size>102791</Size>
 			<Required>true</Required>
-			<ModType>Litemod</ModType>
-			<MD5>f4114f1b5e45986545a8661f9066580b</MD5>
+			<ModType>Regular</ModType>
+			<MD5>d399c76392cddd6812492fb7a5d45c5e</MD5>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/Xaeros_Minimap.jar</URL>
-			<Size>292173</Size>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Xaeros_Minimap.jar</URL>
+			<Size>308550</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>365f4d3bb018e3061029b9d091e93a38</MD5>
+			<MD5>3bd7d4da30b116c71432beddcfb16227</MD5>
 		</Module>
 		<Module name="XRay" id="XRay" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11/Mods/XRay.jar</URL>
-			<Size>307609</Size>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/XRay.jar</URL>
+			<Size>308281</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9ee9a06413507f206322f8fb1681d6f6</MD5>
+			<MD5>b9579ad1b56717336d135b3702496370</MD5>
 		</Module>
 	</Server>
 </ServerPack>
