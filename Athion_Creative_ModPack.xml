@@ -24,7 +24,7 @@
 			<MD5>e444db3541d6450224b752613a1ce778</MD5>
 		</Module>
 		<Module name="PixelCam" id="pixelcam" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Pixelcam.jar</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/PixelCam.jar</URL>
 			<Size>671665</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
