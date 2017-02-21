@@ -16,11 +16,12 @@
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
 		</Module>
-		<Module name="LiteLoader" id="liteloader">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/liteloader/liteloader.jar</URL>
-			<Required isDefault="true">false</Required>
-			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
-			<MD5></MD5>
+		<Module name="Liteloader" id="Liteloader" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Liteloader.jar</URL>
+			<Size>1562782</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f6600a99308287244c5a9e37737f28e1</MD5>
 		</Module>
 		<Module name="Better Sprinting" id="bettersprinting" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/BetterSprinting.jar</URL>
