@@ -65,13 +65,6 @@
 			<ModType>Regular</ModType>
 			<MD5>d399c76392cddd6812492fb7a5d45c5e</MD5>
 		</Module>
-		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Xaeros_Minimap.jar</URL>
-			<Size>314037</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>87e17ef987e1891745784189ea7721b0</MD5>
-		</Module>
 		<Module name="XRay" id="XRay" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/XRay.jar</URL>
 			<Size>334892</Size>
