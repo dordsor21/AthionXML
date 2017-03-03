@@ -2,11 +2,11 @@
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server
 	id="athion-server"
-	name="Athion Network Creative Server"
+	name="Athion Network Creative Server Modpack"
 	newsUrl="http://www.athion.net/community/articles/"
 	version="1.11.2"
 	mainClass="net.minecraft.launchwrapper.Launch"
-	revision="1.1"
+	revision="1.11.2.1"
 	iconUrl="http://i.imgur.com/EwgCPyR.png"
 	serverAddress="play.athion.net"
 	autoConnect="false">
@@ -23,6 +23,13 @@
 			<ModType>Regular</ModType>
 			<MD5>f6600a99308287244c5a9e37737f28e1</MD5>
 		</Module>
+		<Module name="Better Foliage" id="betterfoliage" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/BetterFoliage.jar</URL>
+			<Size>3933868</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b3297fcac7cc4627cbf0264914f3a932</MD5>
+		</Module>
 		<Module name="Better Sprinting" id="bettersprinting" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/BetterSprinting.jar</URL>
 			<Size>88439</Size>
@@ -30,28 +37,49 @@
 			<ModType>Regular</ModType>
 			<MD5>e8bac285e99741a0bc88c5db7dcc661c</MD5>
 		</Module>
-		<Module name="macros" id="macros" depends="" side="BOTH">
+		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/DynamicSurroundings.jar</URL>
+			<Size>11312824</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>076f039a5fafc2ba3ca00d00430a0788</MD5>
+		</Module>
+		<Module name="Liteloader" id="Liteloader" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Liteloader.jar</URL>
+			<Size>1562782</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f6600a99308287244c5a9e37737f28e1</MD5>
+		</Module>
+		<Module name="macros" id="macros" depends="liteloader" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Macros.litemod</URL>
 			<Size>1670811</Size>
 			<Required>true</Required>
 			<ModType>Litemod</ModType>
-			<MD5>16080785577b391d426c62c8d3138558</MD5>
+			<MD5>16080785577b391d426c62c8d3138558</MD5> 
 		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Optifine.jar</URL>
-			<Size>1781278</Size>
+			<Size>1816458</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0028c6b9f603d53dfe51b9956203b477</MD5>
+			<MD5>005c5ab44217648fc661b608ec8d79dc</MD5>
 		</Module>
 		<Module name="PixelCam" id="pixelcam" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/PixelCam.jar</URL>
-			<Size>676460</Size>
+			<Size>676467</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1a7766f9a328fac0a3769ea41d95d1bd</MD5>
+			<MD5>1a05b6e2c189d6a5385a8bd488488262</MD5> 
 		</Module>
-		<Module name="VoxelMap" id="VoxelMap" depends="" side="BOTH">
+		<Module name="Sound Filters" id="soundfilters" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/SoundFilters.jar</URL>
+			<Size>42039</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>928b18e1a4286ee03c2bf631622cb4f7</MD5>
+		</Module>
+		<Module name="VoxelMap" id="VoxelMap" depends="liteloader" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/VoxelMap.litemod</URL>
 			<Size>583830</Size>
 			<Required>true</Required>
