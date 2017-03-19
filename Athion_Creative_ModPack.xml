@@ -51,7 +51,7 @@
 			<ModType>Regular</ModType>
 			<MD5>f6600a99308287244c5a9e37737f28e1</MD5>
 		</Module>
-		<Module name="macros" id="macros" depends="liteloader" side="BOTH">
+		<Module name="macros" id="macros" depends="Liteloader" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Macros.litemod</URL>
 			<Size>1670811</Size>
 			<Required>true</Required>
@@ -79,7 +79,7 @@
 			<ModType>Regular</ModType>
 			<MD5>928b18e1a4286ee03c2bf631622cb4f7</MD5>
 		</Module>
-		<Module name="VoxelMap" id="VoxelMap" depends="liteloader" side="BOTH">
+		<Module name="VoxelMap" id="VoxelMap" depends="Liteloader" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/VoxelMap.litemod</URL>
 			<Size>583830</Size>
 			<Required>true</Required>
