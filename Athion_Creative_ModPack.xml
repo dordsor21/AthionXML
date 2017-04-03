@@ -10,8 +10,8 @@
 	iconUrl="http://i.imgur.com/EwgCPyR.png"
 	serverAddress="play.athion.net"
 	autoConnect="false">
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.11.2&amp;forge=13.20.0.2227">forge</Import>
-		<Module name="Minecraft Forge" id="forge-13.20.0.2227" depends="" side="BOTH">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.11.2&amp;forge=13.20.0.2262">forge</Import>
+		<Module name="Minecraft Forge" id="forge-13.20.0.2262" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
@@ -43,13 +43,6 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>076f039a5fafc2ba3ca00d00430a0788</MD5>
-		</Module>
-		<Module name="Liteloader" id="Liteloader" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Liteloader.jar</URL>
-			<Size>1562782</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>f6600a99308287244c5a9e37737f28e1</MD5>
 		</Module>
 		<Module name="macros" id="macros" depends="Liteloader" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Macros.litemod</URL>
