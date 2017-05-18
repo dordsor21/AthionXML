@@ -10,8 +10,8 @@
 	iconUrl="http://i.imgur.com/EwgCPyR.png"
 	serverAddress="play.athion.net"
 	autoConnect="false">
-        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.11.2&amp;forge=13.20.0.2262">forge</Import>
-        <Module name="Minecraft Forge" id="forge-13.20.0.2262" depends="" side="BOTH">
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.11.2&amp;forge=13.20.0.2298">forge</Import>
+        <Module name="Minecraft Forge" id="forge-13.20.0.2298" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
