@@ -6,7 +6,7 @@
 	newsUrl="http://www.athion.net/community/articles/"
 	version="1.11.2"
 	mainClass="net.minecraft.launchwrapper.Launch"
-	revision="1.11.2.4"
+	revision="1.11.2.5"
 	iconUrl="http://i.imgur.com/EwgCPyR.png"
 	serverAddress="play.athion.net"
 	autoConnect="false">
@@ -16,33 +16,39 @@
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
 		</Module>
-		<Module name="Liteloader" id="liteloader" depends="" side="BOTH">
+		<Module name="LiteLoader" id="liteloader">
+			<URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.11.2/liteloader-1.11.2.jar</URL>
+			<Required isDefault="true">false</Required>
+			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
+			<MD5></MD5>
+		</Module>
+		<Module name="Better Foliage" id="betterfoliage" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/BetterFoliage.jar</URL>
+			<Size>4662160</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3e7ace48477c06c91713acd006dc9df0</MD5>
+		</Module>
+		<Module name="DaFlight" id="DaFlight" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/DaFlight.jar</URL>
+			<Size>844844</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>544fb1975b987d0a5ec8fdccb7592069</MD5>
+		</Module>
+		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/DynamicSurroundings.jar</URL>
+			<Size>11573112</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ba93b8d81a5a5d89f839eab13746b292</MD5>
+		</Module>
+		<Module name="Liteloader" id="Liteloader" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Liteloader.jar</URL>
 			<Size>1561228</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>14ad24bfce6f4820778a6f964fc1168b</MD5>
-		</Module>
-		<Module name="Better Foliage" id="betterfoliage" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/BetterFoliage.jar</URL>
-			<Size>3933868</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>b3297fcac7cc4627cbf0264914f3a932</MD5>
-		</Module>
-		<Module name="Better Sprinting" id="bettersprinting" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/BetterSprinting.jar</URL>
-			<Size>88439</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>e8bac285e99741a0bc88c5db7dcc661c</MD5>
-		</Module>
-		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/DynamicSurroundings.jar</URL>
-			<Size>11312824</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>076f039a5fafc2ba3ca00d00430a0788</MD5>
 		</Module>
 		<Module name="macros" id="macros" depends="liteloader" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Macros.litemod</URL>
@@ -53,10 +59,10 @@
 		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/Optifine.jar</URL>
-			<Size>1816458</Size>
+			<Size>2050500</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>005c5ab44217648fc661b608ec8d79dc</MD5>
+			<MD5>cf4da33e1014b1b77fea17d64668aff6</MD5>
 		</Module>
 		<Module name="PixelCam" id="pixelcam" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/PixelCam.jar</URL>
@@ -79,12 +85,12 @@
 			<ModType>Litemod</ModType>
 			<MD5>6ab2b8904f193535db7fd20555c8310d</MD5>
 		</Module>
-		<Module name="WorldEdit CUI Forge Edition 2" id="worldeditcuife2" depends="" side="BOTH">
+		<Module name="WorldEdit CUI Forge Edition" id="worldeditcuife" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/WorldEditCUI.jar</URL>
-			<Size>461691</Size>
+			<Size>102791</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>439f82b69f3464969163c188818c677b</MD5>
+			<MD5>aa53a7026089f351035296b5a90cd931</MD5>
 		</Module>
 		<Module name="XRay" id="XRay" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.11.2/Mods/XRay.jar</URL>
