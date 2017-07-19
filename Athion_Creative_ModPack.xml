@@ -16,12 +16,6 @@
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
 		</Module>
-		<Module name="LiteLoader" id="liteloader">
-			<URL>http://jenkins.liteloader.com/job/LiteLoader%201.12/lastSuccessfulBuild/artifact/build/libs/liteloader-1.12-SNAPSHOT.jar</URL>
-			<Required isDefault="true">false</Required>
-			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
-			<MD5></MD5>
-		</Module>
 		<Module name="Better Foliage" id="betterfoliage" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12/Mods/BetterFoliage.jar</URL>
 			<Size>4660246</Size>
