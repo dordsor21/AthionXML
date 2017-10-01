@@ -4,100 +4,94 @@
 	id="athion-server"
 	name="Athion Network Creative Server Modpack"
 	newsUrl="http://www.athion.net/community/articles/"
-	version="1.12.1"
+	version="1.12.2"
 	mainClass="net.minecraft.launchwrapper.Launch"
-	revision="1.12.1"
+	revision="1.12.2"
 	iconUrl="http://i.imgur.com/EwgCPyR.png"
 	serverAddress="play.athion.net"
 	autoConnect="false">
-        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.1&amp;forge=14.22.0.2446">forge</Import>
-        <Module name="Minecraft Forge" id="forge-14.22.0.2446" depends="" side="BOTH">
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.0.2486">forge</Import>
+        <Module name="Minecraft Forge" id="forge-14.23.0.2486" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType order="1">Override</ModType>
 		</Module>
-		<Module name="LiteLoader" id="liteloader">
-			<URL>https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/Liteloader.jar</URL>
-			<Required isDefault="true">false</Required>
-			<ModType order="100" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
-			<MD5></MD5>
-		</Module>
-		<Module name="Better Sprinting" id="bettersprinting" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/BetterSprinting.jar</URL>
-			<Size>4660246</Size>
+		<Module name="Better Foliage" id="betterfoliage" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/BetterFoliage.jar</URL>
+			<Size>4671397</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>73beed7adfd65b39b4c9cd9b8058d468</MD5>
-		</Module>
-		<Module name="DaFlight" id="DaFlight" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/DaFlight.jar</URL>
-			<Size>898814</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>edfb29945dfdfa9ce9e3bf10f7cfa367</MD5>
-		</Module>
-		<Module name="DaFlight" id="DaFlight" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/DaFlight.jar</URL>
-			<Size>898814</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>edfb29945dfdfa9ce9e3bf10f7cfa367</MD5>
-		</Module>
-		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/DynamicSurroundings.jar</URL>
-			<Size>21846589</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>5edd93dc238acc15b6c0beae8d40ad77</MD5>
-		</Module>
-		<Module name="Liteloader" id="Liteloader" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/Liteloader.jar</URL>
-			<Size>1593208</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>effc0f457ac1e5b4b8b624ca34e5b88d</MD5>
-		</Module>
-		<Module name="macros" id="macros" depends="liteloader" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/Macros.litemod</URL>
-			<Size>1693327</Size>
-			<Required>true</Required>
-			<ModType>Litemod</ModType>
-			<MD5>c1f0d366b2b3fdf2ea4caf958a67c276</MD5>
-		</Module>
-		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/Optifine.jar</URL>
-			<Size>1898759</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>4c335835753a96fc4432f944da87ca1e</MD5>
+			<MD5>06714eb2c13f59df5e3c92cec7370e11</MD5>
 		</Module>
 		<Module name="PixelCam" id="pixelcam" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/PixelCam.jar</URL>
-			<Size>690876</Size>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/PixelCam.jar</URL>
+			<Size>676476</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4dccfa42d75d4641985a3c3eca9bc74c</MD5>
+			<MD5>a1cb02b0c839455a7cde3fbe7bc3dda0</MD5>
+		</Module>
+		<Module name="VoxelMap" id="VoxelMap" depends="liteloader" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/VoxelMap.litemod</URL>
+			<Size>610569</Size>
+			<Required>true</Required>
+			<ModType>Litemod</ModType>
+			<MD5>a8b0cd8196b5d8f731a101877c01877b</MD5>
+		</Module>
+		<Module name="daFlight" id="daFlight" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/daFlight.jar</URL>
+			<Size>1296871</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9f3473fdfc0dcf20c4fcb9ee57a34fd7</MD5>
+		</Module>
+		<Module name="Better Sprinting" id="bettersprinting" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/BetterSprinting.jar</URL>
+			<Size>75639</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bf5e47db57d65a92dab224df77c481ae</MD5>
+		</Module>
+		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/DynamicSurroundings.jar</URL>
+			<Size>22055819</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ce790d3dcef5e776d1f7254e53e1d014</MD5>
+		</Module>
+		<Module name="Liteloader" id="Liteloader" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/Liteloader.jar</URL>
+			<Size>1692624</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a911439c33779a411cb96aacf7ca300d</MD5>
+		</Module>
+		<Module name="macros" id="macros" depends="liteloader" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/Macros.litemod</URL>
+			<Size>1726452</Size>
+			<Required>true</Required>
+			<ModType>Litemod</ModType>
+			<MD5>9ba3ed960bbb676743a3b6c2e1efc484</MD5>
+		</Module>
+		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/Optifine.jar</URL>
+			<Size>1923249</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9f7c93208a136f7c096e08eb8eabe5b2</MD5>
 		</Module>
 		<Module name="Sound Filters" id="soundfilters" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/SoundFilters.jar</URL>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/SoundFilters.jar</URL>
 			<Size>41838</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>da0bef083b7eb63136f5d7b3152ad7ed</MD5>
 		</Module>
-		<Module name="VoxelMap" id="VoxelMap" depends="liteloader" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/VoxelMap.litemod</URL>
-			<Size>591933</Size>
-			<Required>true</Required>
-			<ModType>Litemod</ModType>
-			<MD5>d628dd9c2c5d8e944c327c3e59a189e3</MD5>
-		</Module>
 		<Module name="WorldEdit CUI Forge Edition 2" id="worldeditcuife2" depends="" side="BOTH">
-			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.1/Mods/WorldEditCUI.jar</URL>
-			<Size>461792</Size>
+			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/WorldEditCUI.jar</URL>
+			<Size>461808</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>52f4742adf991c5cde8494ad4b9d5863</MD5>
+			<MD5>44b1b1031c25f04955bfd7ed734bd467</MD5>
 		</Module>
 	</Server>
 </ServerPack>
