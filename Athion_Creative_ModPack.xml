@@ -25,10 +25,10 @@
 		</Module>
 		<Module name="PixelCam" id="pixelcam" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/PixelCam.jar</URL>
-			<Size>676476</Size>
+			<Size>676479</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a1cb02b0c839455a7cde3fbe7bc3dda0</MD5>
+			<MD5>d43ce3efb819d47e70b89262ba97e04b</MD5>
 		</Module>
 		<Module name="VoxelMap" id="VoxelMap" depends="Liteloader" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/VoxelMap.litemod</URL>
