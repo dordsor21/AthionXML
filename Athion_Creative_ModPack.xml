@@ -74,10 +74,10 @@
 		</Module>
 		<Module name="Optifine" id="Optifine" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/Optifine.jar</URL>
-			<Size>1923249</Size>
+			<Size>1949014</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9f7c93208a136f7c096e08eb8eabe5b2</MD5>
+			<MD5>d5d52b61e12fd9696cebe6f0bd11186d</MD5>
 		</Module>
 		<Module name="Sound Filters" id="soundfilters" depends="" side="BOTH">
 			<URL priority="0">https://github.com/AthionOfficial/Mods/raw/gh-pages/1.12.2/Mods/SoundFilters.jar</URL>
